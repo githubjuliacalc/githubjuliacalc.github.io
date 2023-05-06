@@ -742,425 +742,425 @@
                 document.querySelector(".calc-download-btn").classList.add("calc-hidden"),
                 q()
             }),
-            //  document.querySelector(".calc-download-btn").onclick = (() = > {
-            //          let t = {
-            //                  pageSize: "A4",
-            //                  pageMargins: [50, 10, 50, 40],
-            //                  pageOrientation: "landscape",
-            //                  content: [{
-            //                          width: "*",
-            //                          text: `$ {
-            //                                  document.querySelector("#calc-matriza-name").value
-            //                          }($ {
-            //                                  document.querySelector("#calc-matriza-bd").value
-            //                          });Возраст: $ {
-            //                                  document.querySelector("#calc-matriza-vz").innerHTML
-            //                          }`,
-            //                          margin: [0, 10],
-            //                          fontSize: 20,
-            //                          bold: !0,
-            //                          alignment: "center"},{
-            //                          columns: [[{
-            //                                  width: "*",
-            //                                  text: "Персональный расчёт",
-            //                                  margin: [0, 5],
-            //                                  fontSize: 14,
-            //                                  bold: !0,
-            //                                  alignment: "left"},{
-            //                                  width: "*",
-            //                                  text: "Карта здоровья",
-            //                                  margin: [0, 0],
-            //                                  fontSize: 12,
-            //                                  alignment: "left"},{
-            //                                  margin: [0, 10],
-            //                                  svg: ` < svg xmlns = "http://www.w3.org/2000/svg"
-            //                                  width = "116.6mm"
-            //                                  height = "134.1mm"
-            //                                  viewBox = "0 0 330.5 380" > \n < title > Ресурс6 < /title>\n                                <g id="Слой_2" data-name="Слой 2">\n                                  <g id="Слой_1-2" data-name="Слой 1">\n                                    <g id="table">\n                                      <g id="header">\n                                        <g>\n                                          <rect x="0.5" width="49.7" height="39.47" style="fill: #e2e1e2"/ > \n < text transform = "translate(7.1 23.1) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > Физи < tspan x = "27.9"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: 0.010028985339213786em" > к < /tspan><tspan x="33.5" y="0">а</tspan > < /text>\n                                        </g > \n < g > \n < rect x = "56.2"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: #e2e1e2" / > \n < text transform = "translate(60.6 23.1) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > Энер < tspan x = "27"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.006959769998333706em" > г < /tspan><tspan x="31.3" y="0" style="letter-spacing: 0.0040202398127020785em">и</tspan > < tspan x = "37.7"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.00004322838508281804em" > я < /tspan></text > \n < /g>\n                                        <g>\n                                          <rect x="109.9" width="49.7" height="39.47" style="fill: #e2e1e2"/ > \n < text transform = "translate(113.5 23.1) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > < tspan style = "letter-spacing: 0.005014492669606893em" > Э < /tspan><tspan x="7.6" y="0">моции</tspan > < /text>\n                                        </g > \n < g > \n < rect x = "162.1"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #e2e1e2" / > \n < text transform = "translate(207.4 16.6) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > Названиечакры < /text>\n                                          <text transform="translate(208.5 27.8) scale(0.99 1)" style="font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro">За что отвечает</text > \n < /g>\n                                      </g > \n < g id = "row-1" > \n < rect x = "0.5"
-            //                                  y = "44.7"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #dcc3de;stroke-miterlimit: 10" / > \n < rect x = "56.2"
-            //                                  y = "44.7"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #dcc3de;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "44.7"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #dcc3de;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "44.7"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #ddc5df" / > \n < text transform = "translate(167 56.5) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 7.CА < tspan x = "22.2"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.004979910127607418em" > Х < /tspan><tspan x="27.6" y="0" style="letter-spacing: -0.015043478510480743em">А</tspan > < tspan x = "33.3"
-            //                                  y = "0" > С < /tspan><tspan x="39.5" y="0" style="letter-spacing: -0.0839322352757167em">Р</tspan > < tspan x = "44"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.0001037481276584879em" > А < /tspan><tspan x="50" y="0" style="letter-spacing: -0.0839322352757167em">Р</tspan > < tspan x = "54.8"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.0001037481276584879em" > А (ми < /tspan><tspan x="79" y="0" style="letter-spacing: -0.006017391404192297em">с</tspan > < tspan x = "84"
-            //                                  y = "0" > с < /tspan><tspan x="88.7" y="0" style="letter-spacing: 0.004046176978681028em">и</tspan > < tspan x = "94"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.0001037481276584879em" > я) < /tspan><tspan x="0" y="11.4" style="letter-spacing: 0.0030086957020961486em">В</tspan > < tspan x = "5.2"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: 0.00394242885102254em" > о < /tspan><tspan x="10.5" y="11.4">лосы, моз</tspan > < tspan x = "55.6"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: -0.07604737757367162em" > г < /tspan><tspan x="59" y="11.4">, ве</tspan > < tspan x = "73.1"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: -0.012968515957310986em" > р < /tspan><tspan x="78.4" y="11.4" style="letter-spacing: -0.0001037481276584879em">х</tspan > < tspan x = "82.8"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: 0.004046176978681028em" > ня < /tspan><tspan x="92.8" y="11.4">я ча</tspan > < tspan x = "111"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: 0.015977211659407135em" > с < /tspan><tspan x="115.5" y="11.4" style="letter-spacing: -0.006951124553118688em">т</tspan > < tspan x = "119.3"
-            //                                  y = "11.4" > ьчерепа < /tspan></text > \n < /g>\n                                      </g > \n < g id = "row-2" > \n < rect x = "0.5"
-            //                                  y = "87.4"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #4d4e74;stroke-miterlimit: 10" / > \n < rect x = "56.2"
-            //                                  y = "87.4"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #4d4e74;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "87.4"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #4d4e74;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "87.4"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #393f6e" / > \n < text transform = "translate(167 99.2) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 6. < tspan x = "8.9"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: 0.02593703191462197em" > А < /tspan><tspan x="15" y="0" style="letter-spacing: 0.005083658255265907em">Д</tspan > < tspan x = "22"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.0001037481276584879em" > ЖНА ( < /tspan><tspan x="49.4" y="0" style="letter-spacing: 0.014005997233895867em">с</tspan > < tspan x = "54"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.020023388638088165em" > у < /tspan><tspan x="58.1" y="0">д</tspan > < tspan x = "63.2"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.004979910127607418em" > ь < /tspan><tspan x="67.9" y="0">ба, э</tspan > < tspan x = "88"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.006951124553118688em" > г < /tspan><tspan x="92.5" y="0">ре</tspan > \n < tspan x = "103"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: -0.020023388638088165em" > г < /tspan><tspan x="107.5" y="0">оры)</tspan > < tspan x = "0"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: -0.08808216038205623em" > Г < /tspan><tspan x="3.3" y="11.4">лаза, ниж</tspan > \n < tspan x = "46.3"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: 0.00394242885102254em" > ня < /tspan>\n                                          <tspan x="56.3" y="11.4">я ча</tspan > \n < tspan x = "74"
-            //                                  y = "11.4"
-            //                                  style = "letter-spacing: 0.015977211659407135em" > с < /tspan>\n                                          <tspan x="78.9" y="11.4" style="letter-spacing: -0.006951124553118688em">т</tspan > \n < tspan x = "83.8"
-            //                                  y = "11.4" > ьчерепа, < /tspan>\n                                          <tspan x="125.6" y="11.4">нервная</tspan > \n < tspan x = "0"
-            //                                  y = "22.9" > система, верхняячелюсть < /tspan>\n                                          </text > \n < /g>\n                                      </g > \n < g id = "row-3" > \n < rect x = "0.5"
-            //                                  y = "129.3"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #a4c4d7;stroke-miterlimit: 10" / > \n < rect x = "56.2"
-            //                                  y = "129.3"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #a4c4d7;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "129.3"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #a4c4d7;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "129.3"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #a9c4d4" / > \n < text transform = "translate(167 141.1) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 5.ВИШУДХА (самовосприятие, \n < tspan x = "0"
-            //                                  y = "11.4" > самовыражение)Горло, нижняя < /tspan>\n                                          <tspan x="0" y="22.9">челюсть, щитовидка</tspan > < /text>\n                                        </g > \n < /g>\n                                      <g id="row-4">\n                                        <rect x="0.5" y="171.2" width="49.7" height="39.47" style="fill: none;stroke: #57925d;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
-            //                                  y = "171.2"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #57925d;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "171.2"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #57925d;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "171.2"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #55945e" / > \n < text transform = "translate(167 183) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 4.АНАХАТА (отношения, \n < tspan x = "0"
-            //                                  y = "11.4" > картинамира)Сердце, легкие, < /tspan>\n                                          <tspan x="0" y="22.8">бронхи, ребра, грудь</tspan > < /text>\n                                        </g > \n < /g>\n                                      <g id="row-5">\n                                        <rect x="0.5" y="213.5" width="49.7" height="39.47" style="fill: none;stroke: #e6e552;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
-            //                                  y = "213.5"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #e6e552;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "213.5"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #e6e552;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "213.5"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #e8e74f" / > \n < text transform = "translate(167 225.3) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 3.МАНИПУРА (статус, партнерство, \n < tspan x = "0"
-            //                                  y = "11.4" > местовсоциуме, деньги)ЖКТ, < /tspan>\n                                            <tspan x="0" y="22.8" >середина позвоночника, печень</tspan > \n < /text>\n                                        </g > \n < /g>\n                                      <g id="row-6">\n                                        <rect x="0.5" y="255.9" width="49.7" height="39.47" style="fill: none;stroke: #d89847;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
-            //                                  y = "255.9"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #d89847;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "255.9"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #d89847;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "255.9"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #db974b" / > \n < text transform = "translate(167 267.6) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 2.СВАДХИСТАНА (радость, \n < tspan x = "0"
-            //                                  y = "11.4" > удовольствие)Почки, < /tspan>\n                                          <tspan x="0" y="22.8">толстый кишечник, надпочечники</tspan > \n < /text>\n                                        </g > \n < /g>\n                                      <g id="row-7">\n                                        <rect x="0.5" y="298.2" width="49.7" height="39.47" style="fill: none;stroke: #b24f4a;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
-            //                                  y = "298.2"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #b24f4a;stroke-miterlimit: 10" / > \n < rect x = "109.9"
-            //                                  y = "298.2"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: none;stroke: #b24f4a;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "298.2"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #a95252" / > \n < text transform = "translate(167 310) scale(0.99 1)"
-            //                                  style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 1.МУЛАДХАРА (материя, тело)\n < tspan x = "0"
-            //                                  y = "11.4" > Ноги, анус, мочеполоваясистема, < /tspan>\n                                          <tspan x="0" y="22.8">крестец</tspan > \n < /text>\n                                        </g > \n < /g>\n                                      <g id="footer">\n                                        <rect x="0.5" y="340.5" width="49.7" height="39.47" style="fill: #e2e1e2"/ > \n < rect x = "56.2"
-            //                                  y = "340.5"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: #e2e1e2" / > \n < rect x = "109.9"
-            //                                  y = "340.5"
-            //                                  width = "49.7"
-            //                                  height = "39.47"
-            //                                  style = "fill: #e2e1e2" / > \n < g > \n < rect x = "162.1"
-            //                                  y = "340.5"
-            //                                  width = "168.4"
-            //                                  height = "39.47"
-            //                                  style = "fill: #e2e1e2" / > \n < text transform = "translate(212.8 363.6) scale(0.99 1)"
-            //                                  style = "font-size: 20.01874542236328px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > < tspan style = "letter-spacing: -0.0040017134572712405em" > И < /tspan><tspan x="13.1" y="0" style="letter-spacing: -0.0200085672863562em">т</tspan > < tspan x = "20.9"
-            //                                  y = "0"
-            //                                  style = "letter-spacing: 0.00004940386984285482em" > о < /tspan><tspan x="31.9" y="0" style="letter-spacing: -0.0200085672863562em">г</tspan > < tspan x = "39.2"
-            //                                  y = "0" > о < /tspan></text > \n < /g>\n                                      </g > \n < g id = "physics-row-1" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 1 ").innerHTML.length?22.4:18.9} 66.8) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-1").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-1" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 1 ").innerHTML.length?76.6:73.1} 66.8) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-1").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-1-1" > \n < text transform = "translate(${1==document.querySelector(".key - row - 1 ").innerHTML.length?131:127.5} 66.8) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-1-1").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-2" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 2 ").innerHTML.length?22.4:18.9} 109.5) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-2").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-2-2" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 2 ").innerHTML.length?76.6:73.1} 109.5) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-2-2").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-2" > \n < text transform = "translate(${1==document.querySelector(".key - row - 2 ").innerHTML.length?131:127.5} 109.5) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-2").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-3" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 3 ").innerHTML.length?22.4:18.9} 151.4) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-3").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-3" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 3 ").innerHTML.length?76.6:73.1} 151.4) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-3").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-3" > \n < text transform = "translate(${1==document.querySelector(".key - row - 3 ").innerHTML.length?131:127.5} 151.4) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-3").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-4" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 4 ").innerHTML.length?22.4:18.9} 193.3) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-4").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-4" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 4 ").innerHTML.length?76.6:73.1} 193.3) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-4").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-4" > \n < text transform = "translate(${1==document.querySelector(".key - row - 4 ").innerHTML.length?131:127.5} 193.3) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-4").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-5" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 5 ").innerHTML.length?22.4:18.9} 235.7) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-5").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-5" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 5 ").innerHTML.length?76.6:73.1} 235.7) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-5").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-5" > \n < text transform = "translate(${1==document.querySelector(".key - row - 5 ").innerHTML.length?131:127.5} 235.7) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-5").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-6" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 6 ").innerHTML.length?22.4:18.9} 278) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-6").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-6" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 6 ").innerHTML.length?76.6:73.1} 278) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-6").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-6" > \n < text transform = "translate(${1==document.querySelector(".key - row - 6 ").innerHTML.length?131:127.5} 278) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-6").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-7" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 7 ").innerHTML.length?22.4:18.9} 320.3) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-7").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-7" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 7 ").innerHTML.length?76.6:73.1} 320.3) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-7").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-7" > \n < text transform = "translate(${1==document.querySelector(".key - row - 7 ").innerHTML.length?131:127.5} 320.3) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-7").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "physics-row-8" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 8 ").innerHTML.length?22.4:18.9} 362.7) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".physics-row-8").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "energy-row-8" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 8 ").innerHTML.length?76.6:73.1} 362.7) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".energy-row-8").innerHTML
-            //                                  } < /text>\n                                      </g > \n < g id = "key-row-8" > \n < text transform = "translate(${1==document.querySelector(".key - row - 8 ").innerHTML.length?131:127.5}  362.7) scale(0.99 1)"
-            //                                  style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                          document.querySelector(".key-row-8").innerHTML
-            //                                  } < /text>\n                                      </g > \n < /g>\n                                  </g > \n < /g>\n                              </svg > `, fit: [250, 450]
-            //                                  },
-            //                                  {
-            //                                          svg: ` < svg xmlns = "http://www.w3.org/2000/svg"
-            //                                          width = "131.1mm"
-            //                                          height = "44.5mm"
-            //                                          viewBox = "0 0 371.5 126.2" > \n < title > Ресурс2 < /title>\n                                <g id="Слой_2" data-name="Слой 2">\n                                  <g id="Слой_1-2" data-name="Слой 1">\n                                    <g>\n                                      <g id="sila">\n                                        <text transform="translate(0 12.6)" style="font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro">\n                                            Сила рода\n                                        </text > \n < line x1 = "79"
-            //                                          y1 = "14.6"
-            //                                          x2 = "117.3"
-            //                                          y2 = "14.6"
-            //                                          style = "fill: none;stroke: #201600;stroke-miterlimit: 10" / > \n < text transform = "translate(${1==document.querySelector("#calc - otp - sila - roda ").innerHTML.length?93:90} 12.6)"
-            //                                          style = "font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                                  document.querySelector("#calc-otp-sila-roda").innerHTML
-            //                                          } < /text>\n                                      </g > \n < g id = "kod" > \n < text transform = "translate(136.8 13.6)"
-            //                                          style = "font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > \n < tspan > Кодвнутреннейсилы < /tspan>\n                                        </text > \n < line x1 = "294.8"
-            //                                          y1 = "15.6"
-            //                                          x2 = "333.1"
-            //                                          y2 = "15.6"
-            //                                          style = "fill: none;stroke: #201600;stroke-miterlimit: 10" / > \n < text id = "calc-otp-vnut-sila"
-            //                                          transform = "translate(298.8 13.6)"
-            //                                          style = "font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
-            //                                                  document.querySelector("#calc-otp-vnut-sila").innerHTML
-            //                                          } < /text>\n                                      </g > \n < g > \n < g id = "Слой_1-2-2"
-            //                                          data - name = "Слой 1-2" > \n < circle cx = "54.2"
-            //                                          cy = "79.3"
-            //                                          r = "14"
-            //                                          style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < circle cx = "54.2"
-            //                                          cy = "111.7"
-            //                                          r = "14"
-            //                                          style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "72.5"
-            //                                          y1 = "79.3"
-            //                                          x2 = "84.4"
-            //                                          y2 = "79.3"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "83.8"
-            //                                          y1 = "79.3"
-            //                                          x2 = "83.8"
-            //                                          y2 = "95.3"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "83.8"
-            //                                          y1 = "95.3"
-            //                                          x2 = "83.8"
-            //                                          y2 = "111.3"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "72.5"
-            //                                          y1 = "110.8"
-            //                                          x2 = "84.4"
-            //                                          y2 = "110.8"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < circle cx = "103.3"
-            //                                          cy = "95.3"
-            //                                          r = "14"
-            //                                          style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < g style = "isolation: isolate" > \n < text transform = "translate(2.1 81.3)"
-            //                                          style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial" > Н < /text>\n                                            <text transform="translate(9.9 81.3)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.0050048828125em">е</text > \n < text transform = "translate(16 81.3)"
-            //                                          style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial" > бо < /text>\n                                          </g > \n < text id = "otp-nebo"
-            //                                          transform = "translate(${1==document.querySelector("#otp - nebo ").innerHTML.length?50.3:45.8} 84.3)"
-            //                                          style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
-            //                                                  document.querySelector("#otp-nebo").innerHTML
-            //                                          } < /text>\n                                          <g style="isolation: isolate">\n                                            <text transform="translate(2.1 114.7)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.0030110677083333335em">З</text > \n < text transform = "translate(8 114.7)"
-            //                                          style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial" > е < /text>\n                                            <text transform="translate(14 114.7)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.012003580729166666em">м</text > \n < text transform = "translate(21.8 114.7)"
-            //                                          style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.0030110677083333335em" > л < /text>\n                                            <text transform="translate(28 114.7)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial">я</text > \n < /g>\n                                          <text id="otp-zemly" transform="translate(${1==document.querySelector("#otp-zemly").innerHTML.length?50.3:46.8} 116.2)" style="isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial">${document.querySelector("#otp-zemly").innerHTML}</text > \n < text id = "otp-sum-nz"
-            //                                          transform = "translate(${1==document.querySelector("#otp - sum - nz ").innerHTML.length?99.5:96} 100.2)"
-            //                                          style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
-            //                                                  document.querySelector("#otp-sum-nz").innerHTML
-            //                                          } < /text>\n                                        </g > \n < g id = "text" > \n < text transform = "translate(10.9 42.1)"
-            //                                          style = "font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial" > 1пр - е (20 - 40л) < tspan x = "11"
-            //                                          y = "14.4" > Поискс < /tspan><tspan x="54.6" y="14.4" style="letter-spacing: -0.01123046875em">е</tspan > < tspan x = "61.1"
-            //                                          y = "14.4"
-            //                                          style = "letter-spacing: -0.02197265625em" > б < /tspan><tspan x="67.7" y="14.4">я</tspan > < /text>\n                                        </g > \n < /g>\n                                      <g id="Слой_1-2-3" data-name="Слой 1-2">\n                                        <g>\n                                          <circle cx="169" cy="79.1" r="14" style="fill: #fff;stroke: #1b1815;stroke-miterlimit: 10"/ > \n < circle cx = "169"
-            //                                          cy = "111.5"
-            //                                          r = "14"
-            //                                          style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "187.2"
-            //                                          y1 = "79.1"
-            //                                          x2 = "199.1"
-            //                                          y2 = "79.1"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "198.5"
-            //                                          y1 = "79.1"
-            //                                          x2 = "198.5"
-            //                                          y2 = "95.1"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "198.5"
-            //                                          y1 = "95.1"
-            //                                          x2 = "198.5"
-            //                                          y2 = "111.1"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "187.2"
-            //                                          y1 = "110.6"
-            //                                          x2 = "199.1"
-            //                                          y2 = "110.6"
-            //                                          style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < circle cx = "218"
-            //                                          cy = "95.1"
-            //                                          r = "14"
-            //                                          style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < text id = "otp-man"
-            //                                          transform = "translate(${1==document.querySelector("#otp - man ").innerHTML.length?165:161.5} 84.1)"
-            //                                          style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
-            //                                                  document.querySelector("#otp-man").innerHTML
-            //                                          } < /text>\n                                          <text id="otp-woman" transform="translate(${1==document.querySelector("#otp-woman").innerHTML.length?165:161.5} 117)" style="isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial">${document.querySelector("#otp-woman").innerHTML}</text > \n < text id = "otp-sum-mw-1"
-            //                                          transform = "translate(${1==document.querySelector("#otp - sum - mw ").innerHTML.length?214.2:210.7} 100)"
-            //                                          style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
-            //                                                  document.querySelector("#otp-sum-mw-1").innerHTML
-            //                                          } < /text>\n                                          <text id="otp-nebo-2" data-name="otp-nebo" transform="translate(136.4 81.3)" style="isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial">М</text > \n < text id = "otp-nebo-3"
-            //                                          data - name = "otp-nebo"
-            //                                          transform = "translate(136.4 115.2)"
-            //                                          style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > Ж < /text>\n                                        </g > \n < g id = "text-2"
-            //                                          data - name = "text" > \n < text transform = "translate(148 42.1)"
-            //                                          style = "font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial" > 2пр - е (40 - 60л) < tspan x = "0"
-            //                                          y = "14.4" > Социализация < /tspan></text > \n < /g>\n                                      </g > \n < g > \n < circle cx = "357"
-            //                                          cy = "44.1"
-            //                                          r = "14"
-            //                                          style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < text id = "otp-otp-pl"
-            //                                          transform = "translate(${1==document.querySelector("#otp - otp - du ").innerHTML.length?353.2:349.7} 49)"
-            //                                          style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
-            //                                                  document.querySelector("#otp-otp-du").innerHTML
-            //                                          } < /text>\n                                        <g id="text-3" data-name="text">\n                                          <text transform="translate(252 42.1)" style="font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial">3 пр-е (<tspan x="41.2" y="0" style="letter-spacing: -0.02197265625em">о</tspan > < tspan x = "47.6"
-            //                                          y = "0" > т60л) < /tspan><tspan x="15.4" y="14.4" style="letter-spacing: 0.02197265625em">Д</tspan > < tspan x = "23.8"
-            //                                  y = "14.4" > у < /tspan><tspan x="29.8" y="14.4" style="letter-spacing: -0.01123046875em">х</tspan > < tspan x = "35.7"
-            //                                  y = "14.4" > овное < /tspan></text > \n < /g>\n                                      </g > \n < g > \n < circle cx = "357"
-            //                                  cy = "95.1"
-            //                                  r = "14"
-            //                                  style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < text id = "otp-otp-du"
-            //                                  transform = "translate(${1==document.querySelector("#otp - otp - pl ").innerHTML.length?353.2:349.7} 100)"
-            //                                  style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
-            //                                          document.querySelector("#otp-otp-pl").innerHTML
-            //                                  } < /text>\n                                        <g id="text-4" data-name="text">\n                                          <text transform="translate(273.1 92.1)" style="font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial">4 пр-е<tspan x="-20" y="14.4">План</tspan > < tspan x = "8.9"
-            //                                  y = "14.4"
-            //                                  style = "letter-spacing: -0.033203125em" > е < /tspan><tspan x="15.2" y="14.4" style="letter-spacing: -0.01123046875em">т</tspan > < tspan x = "20.5"
-            //                                  y = "14.4" > арное < /tspan></text > \n < /g>\n                                      </g > \n < /g>\n                                  </g > \n < /g>\n                              </svg > `,
-            //                                  fit: [250, 250],
-            //                                  margin: [0, 10]}], {
-            //                                  width: "auto",
-            //                                  svg: `$ {
-            //                                          document.querySelector(".calc-matriza-svg").innerHTML
-            //                                  }`,
-            //                                  fit: [500, 500],
-            //                                  margin: [10, 0]}]}]
-            //          };
-            //          pdfMake.createPdf(t).download("Расчёт")
-            //  }),
+             document.querySelector(".calc-download-btn").onclick = (() = > {
+                     let t = {
+                             pageSize: "A4",
+                             pageMargins: [50, 10, 50, 40],
+                             pageOrientation: "landscape",
+                             content: [{
+                                     width: "*",
+                                     text: `$ {
+                                             document.querySelector("#calc-matriza-name").value
+                                     }($ {
+                                             document.querySelector("#calc-matriza-bd").value
+                                     });Возраст: $ {
+                                             document.querySelector("#calc-matriza-vz").innerHTML
+                                     }`,
+                                     margin: [0, 10],
+                                     fontSize: 20,
+                                     bold: !0,
+                                     alignment: "center"},{
+                                     columns: [[{
+                                             width: "*",
+                                             text: "Персональный расчёт",
+                                             margin: [0, 5],
+                                             fontSize: 14,
+                                             bold: !0,
+                                             alignment: "left"},{
+                                             width: "*",
+                                             text: "Карта здоровья",
+                                             margin: [0, 0],
+                                             fontSize: 12,
+                                             alignment: "left"},{
+                                             margin: [0, 10],
+                                             svg: ` < svg xmlns = "http://www.w3.org/2000/svg"
+                                             width = "116.6mm"
+                                             height = "134.1mm"
+                                             viewBox = "0 0 330.5 380" > \n < title > Ресурс6 < /title>\n                                <g id="Слой_2" data-name="Слой 2">\n                                  <g id="Слой_1-2" data-name="Слой 1">\n                                    <g id="table">\n                                      <g id="header">\n                                        <g>\n                                          <rect x="0.5" width="49.7" height="39.47" style="fill: #e2e1e2"/ > \n < text transform = "translate(7.1 23.1) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > Физи < tspan x = "27.9"
+                                             y = "0"
+                                             style = "letter-spacing: 0.010028985339213786em" > к < /tspan><tspan x="33.5" y="0">а</tspan > < /text>\n                                        </g > \n < g > \n < rect x = "56.2"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: #e2e1e2" / > \n < text transform = "translate(60.6 23.1) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > Энер < tspan x = "27"
+                                             y = "0"
+                                             style = "letter-spacing: -0.006959769998333706em" > г < /tspan><tspan x="31.3" y="0" style="letter-spacing: 0.0040202398127020785em">и</tspan > < tspan x = "37.7"
+                                             y = "0"
+                                             style = "letter-spacing: -0.00004322838508281804em" > я < /tspan></text > \n < /g>\n                                        <g>\n                                          <rect x="109.9" width="49.7" height="39.47" style="fill: #e2e1e2"/ > \n < text transform = "translate(113.5 23.1) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > < tspan style = "letter-spacing: 0.005014492669606893em" > Э < /tspan><tspan x="7.6" y="0">моции</tspan > < /text>\n                                        </g > \n < g > \n < rect x = "162.1"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #e2e1e2" / > \n < text transform = "translate(207.4 16.6) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > Названиечакры < /text>\n                                          <text transform="translate(208.5 27.8) scale(0.99 1)" style="font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro">За что отвечает</text > \n < /g>\n                                      </g > \n < g id = "row-1" > \n < rect x = "0.5"
+                                             y = "44.7"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #dcc3de;stroke-miterlimit: 10" / > \n < rect x = "56.2"
+                                             y = "44.7"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #dcc3de;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "44.7"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #dcc3de;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "44.7"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #ddc5df" / > \n < text transform = "translate(167 56.5) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 7.CА < tspan x = "22.2"
+                                             y = "0"
+                                             style = "letter-spacing: -0.004979910127607418em" > Х < /tspan><tspan x="27.6" y="0" style="letter-spacing: -0.015043478510480743em">А</tspan > < tspan x = "33.3"
+                                             y = "0" > С < /tspan><tspan x="39.5" y="0" style="letter-spacing: -0.0839322352757167em">Р</tspan > < tspan x = "44"
+                                             y = "0"
+                                             style = "letter-spacing: -0.0001037481276584879em" > А < /tspan><tspan x="50" y="0" style="letter-spacing: -0.0839322352757167em">Р</tspan > < tspan x = "54.8"
+                                             y = "0"
+                                             style = "letter-spacing: -0.0001037481276584879em" > А (ми < /tspan><tspan x="79" y="0" style="letter-spacing: -0.006017391404192297em">с</tspan > < tspan x = "84"
+                                             y = "0" > с < /tspan><tspan x="88.7" y="0" style="letter-spacing: 0.004046176978681028em">и</tspan > < tspan x = "94"
+                                             y = "0"
+                                             style = "letter-spacing: -0.0001037481276584879em" > я) < /tspan><tspan x="0" y="11.4" style="letter-spacing: 0.0030086957020961486em">В</tspan > < tspan x = "5.2"
+                                             y = "11.4"
+                                             style = "letter-spacing: 0.00394242885102254em" > о < /tspan><tspan x="10.5" y="11.4">лосы, моз</tspan > < tspan x = "55.6"
+                                             y = "11.4"
+                                             style = "letter-spacing: -0.07604737757367162em" > г < /tspan><tspan x="59" y="11.4">, ве</tspan > < tspan x = "73.1"
+                                             y = "11.4"
+                                             style = "letter-spacing: -0.012968515957310986em" > р < /tspan><tspan x="78.4" y="11.4" style="letter-spacing: -0.0001037481276584879em">х</tspan > < tspan x = "82.8"
+                                             y = "11.4"
+                                             style = "letter-spacing: 0.004046176978681028em" > ня < /tspan><tspan x="92.8" y="11.4">я ча</tspan > < tspan x = "111"
+                                             y = "11.4"
+                                             style = "letter-spacing: 0.015977211659407135em" > с < /tspan><tspan x="115.5" y="11.4" style="letter-spacing: -0.006951124553118688em">т</tspan > < tspan x = "119.3"
+                                             y = "11.4" > ьчерепа < /tspan></text > \n < /g>\n                                      </g > \n < g id = "row-2" > \n < rect x = "0.5"
+                                             y = "87.4"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #4d4e74;stroke-miterlimit: 10" / > \n < rect x = "56.2"
+                                             y = "87.4"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #4d4e74;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "87.4"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #4d4e74;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "87.4"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #393f6e" / > \n < text transform = "translate(167 99.2) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 6. < tspan x = "8.9"
+                                             y = "0"
+                                             style = "letter-spacing: 0.02593703191462197em" > А < /tspan><tspan x="15" y="0" style="letter-spacing: 0.005083658255265907em">Д</tspan > < tspan x = "22"
+                                             y = "0"
+                                             style = "letter-spacing: -0.0001037481276584879em" > ЖНА ( < /tspan><tspan x="49.4" y="0" style="letter-spacing: 0.014005997233895867em">с</tspan > < tspan x = "54"
+                                             y = "0"
+                                             style = "letter-spacing: -0.020023388638088165em" > у < /tspan><tspan x="58.1" y="0">д</tspan > < tspan x = "63.2"
+                                             y = "0"
+                                             style = "letter-spacing: -0.004979910127607418em" > ь < /tspan><tspan x="67.9" y="0">ба, э</tspan > < tspan x = "88"
+                                             y = "0"
+                                             style = "letter-spacing: -0.006951124553118688em" > г < /tspan><tspan x="92.5" y="0">ре</tspan > \n < tspan x = "103"
+                                             y = "0"
+                                             style = "letter-spacing: -0.020023388638088165em" > г < /tspan><tspan x="107.5" y="0">оры)</tspan > < tspan x = "0"
+                                             y = "11.4"
+                                             style = "letter-spacing: -0.08808216038205623em" > Г < /tspan><tspan x="3.3" y="11.4">лаза, ниж</tspan > \n < tspan x = "46.3"
+                                             y = "11.4"
+                                             style = "letter-spacing: 0.00394242885102254em" > ня < /tspan>\n                                          <tspan x="56.3" y="11.4">я ча</tspan > \n < tspan x = "74"
+                                             y = "11.4"
+                                             style = "letter-spacing: 0.015977211659407135em" > с < /tspan>\n                                          <tspan x="78.9" y="11.4" style="letter-spacing: -0.006951124553118688em">т</tspan > \n < tspan x = "83.8"
+                                             y = "11.4" > ьчерепа, < /tspan>\n                                          <tspan x="125.6" y="11.4">нервная</tspan > \n < tspan x = "0"
+                                             y = "22.9" > система, верхняячелюсть < /tspan>\n                                          </text > \n < /g>\n                                      </g > \n < g id = "row-3" > \n < rect x = "0.5"
+                                             y = "129.3"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #a4c4d7;stroke-miterlimit: 10" / > \n < rect x = "56.2"
+                                             y = "129.3"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #a4c4d7;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "129.3"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #a4c4d7;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "129.3"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #a9c4d4" / > \n < text transform = "translate(167 141.1) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 5.ВИШУДХА (самовосприятие, \n < tspan x = "0"
+                                             y = "11.4" > самовыражение)Горло, нижняя < /tspan>\n                                          <tspan x="0" y="22.9">челюсть, щитовидка</tspan > < /text>\n                                        </g > \n < /g>\n                                      <g id="row-4">\n                                        <rect x="0.5" y="171.2" width="49.7" height="39.47" style="fill: none;stroke: #57925d;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
+                                             y = "171.2"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #57925d;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "171.2"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #57925d;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "171.2"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #55945e" / > \n < text transform = "translate(167 183) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 4.АНАХАТА (отношения, \n < tspan x = "0"
+                                             y = "11.4" > картинамира)Сердце, легкие, < /tspan>\n                                          <tspan x="0" y="22.8">бронхи, ребра, грудь</tspan > < /text>\n                                        </g > \n < /g>\n                                      <g id="row-5">\n                                        <rect x="0.5" y="213.5" width="49.7" height="39.47" style="fill: none;stroke: #e6e552;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
+                                             y = "213.5"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #e6e552;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "213.5"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #e6e552;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "213.5"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #e8e74f" / > \n < text transform = "translate(167 225.3) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 3.МАНИПУРА (статус, партнерство, \n < tspan x = "0"
+                                             y = "11.4" > местовсоциуме, деньги)ЖКТ, < /tspan>\n                                            <tspan x="0" y="22.8" >середина позвоночника, печень</tspan > \n < /text>\n                                        </g > \n < /g>\n                                      <g id="row-6">\n                                        <rect x="0.5" y="255.9" width="49.7" height="39.47" style="fill: none;stroke: #d89847;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
+                                             y = "255.9"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #d89847;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "255.9"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #d89847;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "255.9"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #db974b" / > \n < text transform = "translate(167 267.6) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 2.СВАДХИСТАНА (радость, \n < tspan x = "0"
+                                             y = "11.4" > удовольствие)Почки, < /tspan>\n                                          <tspan x="0" y="22.8">толстый кишечник, надпочечники</tspan > \n < /text>\n                                        </g > \n < /g>\n                                      <g id="row-7">\n                                        <rect x="0.5" y="298.2" width="49.7" height="39.47" style="fill: none;stroke: #b24f4a;stroke-miterlimit: 10"/ > \n < rect x = "56.2"
+                                             y = "298.2"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #b24f4a;stroke-miterlimit: 10" / > \n < rect x = "109.9"
+                                             y = "298.2"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: none;stroke: #b24f4a;stroke-miterlimit: 10" / > \n < g > \n < rect x = "162.1"
+                                             y = "298.2"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #a95252" / > \n < text transform = "translate(167 310) scale(0.99 1)"
+                                             style = "font-size: 9.532735824584961px;fill: #fff;font-family: MyriadPro-Regular, Myriad Pro" > 1.МУЛАДХАРА (материя, тело)\n < tspan x = "0"
+                                             y = "11.4" > Ноги, анус, мочеполоваясистема, < /tspan>\n                                          <tspan x="0" y="22.8">крестец</tspan > \n < /text>\n                                        </g > \n < /g>\n                                      <g id="footer">\n                                        <rect x="0.5" y="340.5" width="49.7" height="39.47" style="fill: #e2e1e2"/ > \n < rect x = "56.2"
+                                             y = "340.5"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: #e2e1e2" / > \n < rect x = "109.9"
+                                             y = "340.5"
+                                             width = "49.7"
+                                             height = "39.47"
+                                             style = "fill: #e2e1e2" / > \n < g > \n < rect x = "162.1"
+                                             y = "340.5"
+                                             width = "168.4"
+                                             height = "39.47"
+                                             style = "fill: #e2e1e2" / > \n < text transform = "translate(212.8 363.6) scale(0.99 1)"
+                                             style = "font-size: 20.01874542236328px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > < tspan style = "letter-spacing: -0.0040017134572712405em" > И < /tspan><tspan x="13.1" y="0" style="letter-spacing: -0.0200085672863562em">т</tspan > < tspan x = "20.9"
+                                             y = "0"
+                                             style = "letter-spacing: 0.00004940386984285482em" > о < /tspan><tspan x="31.9" y="0" style="letter-spacing: -0.0200085672863562em">г</tspan > < tspan x = "39.2"
+                                             y = "0" > о < /tspan></text > \n < /g>\n                                      </g > \n < g id = "physics-row-1" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 1 ").innerHTML.length?22.4:18.9} 66.8) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-1").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-1" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 1 ").innerHTML.length?76.6:73.1} 66.8) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-1").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-1-1" > \n < text transform = "translate(${1==document.querySelector(".key - row - 1 ").innerHTML.length?131:127.5} 66.8) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-1-1").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-2" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 2 ").innerHTML.length?22.4:18.9} 109.5) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-2").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-2-2" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 2 ").innerHTML.length?76.6:73.1} 109.5) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-2-2").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-2" > \n < text transform = "translate(${1==document.querySelector(".key - row - 2 ").innerHTML.length?131:127.5} 109.5) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-2").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-3" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 3 ").innerHTML.length?22.4:18.9} 151.4) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-3").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-3" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 3 ").innerHTML.length?76.6:73.1} 151.4) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-3").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-3" > \n < text transform = "translate(${1==document.querySelector(".key - row - 3 ").innerHTML.length?131:127.5} 151.4) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-3").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-4" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 4 ").innerHTML.length?22.4:18.9} 193.3) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-4").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-4" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 4 ").innerHTML.length?76.6:73.1} 193.3) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-4").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-4" > \n < text transform = "translate(${1==document.querySelector(".key - row - 4 ").innerHTML.length?131:127.5} 193.3) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-4").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-5" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 5 ").innerHTML.length?22.4:18.9} 235.7) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-5").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-5" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 5 ").innerHTML.length?76.6:73.1} 235.7) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-5").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-5" > \n < text transform = "translate(${1==document.querySelector(".key - row - 5 ").innerHTML.length?131:127.5} 235.7) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-5").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-6" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 6 ").innerHTML.length?22.4:18.9} 278) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-6").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-6" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 6 ").innerHTML.length?76.6:73.1} 278) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-6").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-6" > \n < text transform = "translate(${1==document.querySelector(".key - row - 6 ").innerHTML.length?131:127.5} 278) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-6").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-7" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 7 ").innerHTML.length?22.4:18.9} 320.3) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-7").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-7" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 7 ").innerHTML.length?76.6:73.1} 320.3) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-7").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-7" > \n < text transform = "translate(${1==document.querySelector(".key - row - 7 ").innerHTML.length?131:127.5} 320.3) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-7").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "physics-row-8" > \n < text transform = "translate(${1==document.querySelector(".physics - row - 8 ").innerHTML.length?22.4:18.9} 362.7) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".physics-row-8").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "energy-row-8" > \n < text transform = "translate(${1==document.querySelector(".energy - row - 8 ").innerHTML.length?76.6:73.1} 362.7) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".energy-row-8").innerHTML
+                                             } < /text>\n                                      </g > \n < g id = "key-row-8" > \n < text transform = "translate(${1==document.querySelector(".key - row - 8 ").innerHTML.length?131:127.5}  362.7) scale(0.99 1)"
+                                             style = "font-size: 11.43928337097168px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                     document.querySelector(".key-row-8").innerHTML
+                                             } < /text>\n                                      </g > \n < /g>\n                                  </g > \n < /g>\n                              </svg > `, fit: [250, 450]
+                                             },
+                                             {
+                                                     svg: ` < svg xmlns = "http://www.w3.org/2000/svg"
+                                                     width = "131.1mm"
+                                                     height = "44.5mm"
+                                                     viewBox = "0 0 371.5 126.2" > \n < title > Ресурс2 < /title>\n                                <g id="Слой_2" data-name="Слой 2">\n                                  <g id="Слой_1-2" data-name="Слой 1">\n                                    <g>\n                                      <g id="sila">\n                                        <text transform="translate(0 12.6)" style="font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro">\n                                            Сила рода\n                                        </text > \n < line x1 = "79"
+                                                     y1 = "14.6"
+                                                     x2 = "117.3"
+                                                     y2 = "14.6"
+                                                     style = "fill: none;stroke: #201600;stroke-miterlimit: 10" / > \n < text transform = "translate(${1==document.querySelector("#calc - otp - sila - roda ").innerHTML.length?93:90} 12.6)"
+                                                     style = "font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                             document.querySelector("#calc-otp-sila-roda").innerHTML
+                                                     } < /text>\n                                      </g > \n < g id = "kod" > \n < text transform = "translate(136.8 13.6)"
+                                                     style = "font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > \n < tspan > Кодвнутреннейсилы < /tspan>\n                                        </text > \n < line x1 = "294.8"
+                                                     y1 = "15.6"
+                                                     x2 = "333.1"
+                                                     y2 = "15.6"
+                                                     style = "fill: none;stroke: #201600;stroke-miterlimit: 10" / > \n < text id = "calc-otp-vnut-sila"
+                                                     transform = "translate(298.8 13.6)"
+                                                     style = "font-size: 15px;fill: #201600;font-family: MyriadPro-Regular, Myriad Pro" > $ {
+                                                             document.querySelector("#calc-otp-vnut-sila").innerHTML
+                                                     } < /text>\n                                      </g > \n < g > \n < g id = "Слой_1-2-2"
+                                                     data - name = "Слой 1-2" > \n < circle cx = "54.2"
+                                                     cy = "79.3"
+                                                     r = "14"
+                                                     style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < circle cx = "54.2"
+                                                     cy = "111.7"
+                                                     r = "14"
+                                                     style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "72.5"
+                                                     y1 = "79.3"
+                                                     x2 = "84.4"
+                                                     y2 = "79.3"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "83.8"
+                                                     y1 = "79.3"
+                                                     x2 = "83.8"
+                                                     y2 = "95.3"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "83.8"
+                                                     y1 = "95.3"
+                                                     x2 = "83.8"
+                                                     y2 = "111.3"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "72.5"
+                                                     y1 = "110.8"
+                                                     x2 = "84.4"
+                                                     y2 = "110.8"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < circle cx = "103.3"
+                                                     cy = "95.3"
+                                                     r = "14"
+                                                     style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < g style = "isolation: isolate" > \n < text transform = "translate(2.1 81.3)"
+                                                     style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial" > Н < /text>\n                                            <text transform="translate(9.9 81.3)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.0050048828125em">е</text > \n < text transform = "translate(16 81.3)"
+                                                     style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial" > бо < /text>\n                                          </g > \n < text id = "otp-nebo"
+                                                     transform = "translate(${1==document.querySelector("#otp - nebo ").innerHTML.length?50.3:45.8} 84.3)"
+                                                     style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
+                                                             document.querySelector("#otp-nebo").innerHTML
+                                                     } < /text>\n                                          <g style="isolation: isolate">\n                                            <text transform="translate(2.1 114.7)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.0030110677083333335em">З</text > \n < text transform = "translate(8 114.7)"
+                                                     style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial" > е < /text>\n                                            <text transform="translate(14 114.7)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.012003580729166666em">м</text > \n < text transform = "translate(21.8 114.7)"
+                                                     style = "isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial;letter-spacing: 0.0030110677083333335em" > л < /text>\n                                            <text transform="translate(28 114.7)" style="isolation: isolate;font-size: 12px;fill: #1b1815;font-family: ArialMT, Arial">я</text > \n < /g>\n                                          <text id="otp-zemly" transform="translate(${1==document.querySelector("#otp-zemly").innerHTML.length?50.3:46.8} 116.2)" style="isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial">${document.querySelector("#otp-zemly").innerHTML}</text > \n < text id = "otp-sum-nz"
+                                                     transform = "translate(${1==document.querySelector("#otp - sum - nz ").innerHTML.length?99.5:96} 100.2)"
+                                                     style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
+                                                             document.querySelector("#otp-sum-nz").innerHTML
+                                                     } < /text>\n                                        </g > \n < g id = "text" > \n < text transform = "translate(10.9 42.1)"
+                                                     style = "font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial" > 1пр - е (20 - 40л) < tspan x = "11"
+                                                     y = "14.4" > Поискс < /tspan><tspan x="54.6" y="14.4" style="letter-spacing: -0.01123046875em">е</tspan > < tspan x = "61.1"
+                                                     y = "14.4"
+                                                     style = "letter-spacing: -0.02197265625em" > б < /tspan><tspan x="67.7" y="14.4">я</tspan > < /text>\n                                        </g > \n < /g>\n                                      <g id="Слой_1-2-3" data-name="Слой 1-2">\n                                        <g>\n                                          <circle cx="169" cy="79.1" r="14" style="fill: #fff;stroke: #1b1815;stroke-miterlimit: 10"/ > \n < circle cx = "169"
+                                                     cy = "111.5"
+                                                     r = "14"
+                                                     style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "187.2"
+                                                     y1 = "79.1"
+                                                     x2 = "199.1"
+                                                     y2 = "79.1"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "198.5"
+                                                     y1 = "79.1"
+                                                     x2 = "198.5"
+                                                     y2 = "95.1"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "198.5"
+                                                     y1 = "95.1"
+                                                     x2 = "198.5"
+                                                     y2 = "111.1"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < line x1 = "187.2"
+                                                     y1 = "110.6"
+                                                     x2 = "199.1"
+                                                     y2 = "110.6"
+                                                     style = "fill: none;stroke: #1b1815;stroke-miterlimit: 10" / > \n < circle cx = "218"
+                                                     cy = "95.1"
+                                                     r = "14"
+                                                     style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < text id = "otp-man"
+                                                     transform = "translate(${1==document.querySelector("#otp - man ").innerHTML.length?165:161.5} 84.1)"
+                                                     style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
+                                                             document.querySelector("#otp-man").innerHTML
+                                                     } < /text>\n                                          <text id="otp-woman" transform="translate(${1==document.querySelector("#otp-woman").innerHTML.length?165:161.5} 117)" style="isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial">${document.querySelector("#otp-woman").innerHTML}</text > \n < text id = "otp-sum-mw-1"
+                                                     transform = "translate(${1==document.querySelector("#otp - sum - mw ").innerHTML.length?214.2:210.7} 100)"
+                                                     style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
+                                                             document.querySelector("#otp-sum-mw-1").innerHTML
+                                                     } < /text>\n                                          <text id="otp-nebo-2" data-name="otp-nebo" transform="translate(136.4 81.3)" style="isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial">М</text > \n < text id = "otp-nebo-3"
+                                                     data - name = "otp-nebo"
+                                                     transform = "translate(136.4 115.2)"
+                                                     style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > Ж < /text>\n                                        </g > \n < g id = "text-2"
+                                                     data - name = "text" > \n < text transform = "translate(148 42.1)"
+                                                     style = "font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial" > 2пр - е (40 - 60л) < tspan x = "0"
+                                                     y = "14.4" > Социализация < /tspan></text > \n < /g>\n                                      </g > \n < g > \n < circle cx = "357"
+                                                     cy = "44.1"
+                                                     r = "14"
+                                                     style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < text id = "otp-otp-pl"
+                                                     transform = "translate(${1==document.querySelector("#otp - otp - du ").innerHTML.length?353.2:349.7} 49)"
+                                                     style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
+                                                             document.querySelector("#otp-otp-du").innerHTML
+                                                     } < /text>\n                                        <g id="text-3" data-name="text">\n                                          <text transform="translate(252 42.1)" style="font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial">3 пр-е (<tspan x="41.2" y="0" style="letter-spacing: -0.02197265625em">о</tspan > < tspan x = "47.6"
+                                                     y = "0" > т60л) < /tspan><tspan x="15.4" y="14.4" style="letter-spacing: 0.02197265625em">Д</tspan > < tspan x = "23.8"
+                                             y = "14.4" > у < /tspan><tspan x="29.8" y="14.4" style="letter-spacing: -0.01123046875em">х</tspan > < tspan x = "35.7"
+                                             y = "14.4" > овное < /tspan></text > \n < /g>\n                                      </g > \n < g > \n < circle cx = "357"
+                                             cy = "95.1"
+                                             r = "14"
+                                             style = "fill: #fff;stroke: #1b1815;stroke-miterlimit: 10" / > \n < text id = "otp-otp-du"
+                                             transform = "translate(${1==document.querySelector("#otp - otp - pl ").innerHTML.length?353.2:349.7} 100)"
+                                             style = "isolation: isolate;font-size: 14px;fill: #1b1815;font-family: ArialMT, Arial" > $ {
+                                                     document.querySelector("#otp-otp-pl").innerHTML
+                                             } < /text>\n                                        <g id="text-4" data-name="text">\n                                          <text transform="translate(273.1 92.1)" style="font-size: 12px;fill: #4c528d;font-family: ArialMT, Arial">4 пр-е<tspan x="-20" y="14.4">План</tspan > < tspan x = "8.9"
+                                             y = "14.4"
+                                             style = "letter-spacing: -0.033203125em" > е < /tspan><tspan x="15.2" y="14.4" style="letter-spacing: -0.01123046875em">т</tspan > < tspan x = "20.5"
+                                             y = "14.4" > арное < /tspan></text > \n < /g>\n                                      </g > \n < /g>\n                                  </g > \n < /g>\n                              </svg > `,
+                                             fit: [250, 250],
+                                             margin: [0, 10]}], {
+                                             width: "auto",
+                                             svg: `$ {
+                                                     document.querySelector(".calc-matriza-svg").innerHTML
+                                             }`,
+                                             fit: [500, 500],
+                                             margin: [10, 0]}]}]
+                     };
+                     pdfMake.createPdf(t).download("Расчёт")
+             }),
             document.querySelector("#point-2").textContent = 0,
             document.querySelector("#point-1").textContent = 0,
             document.querySelector("#point-3").textContent = 0,

@@ -586,8 +586,9 @@ input.calc-inp-matriza:focus {
     padding-bottom: 40px;
 }
 .download-btn {
+    margin-top: 45px;
     z-index: 9;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     right: 0;
@@ -601,6 +602,8 @@ input.calc-inp-matriza:focus {
 }
 .download-btn .calc-download-btn {
     position: static;
+    padding-right: 15px;
+    padding-left: 15px;
     transform: none;
 }
 

@@ -145,7 +145,7 @@
 
 <body class="t-body" >
 <div id="editor"></div>
-<div class="wrapper" id="matr1">
+<div class="wrapper" >
     <!--allrecords-->
     <div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5162013" data-tilda-page-id="26801721" data-tilda-page-alias="calculator" data-tilda-formskey="15519437a016149b2e27cecac5162013"
         data-tilda-lazy="yes">
@@ -2997,7 +2997,7 @@
 	</div>
 
 	<!-- RECORD PARTHNER 3 -->
-
+<div>
 	<div id="allrecords3" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5162013" data-tilda-page-id="26801721" data-tilda-page-alias="calculator" data-tilda-formskey="15519437a016149b2e27cecac5162013"
 		 data-tilda-lazy="yes">
 		<div id="rec433042674" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="131">
@@ -3009,12 +3009,12 @@
 				</div>
 			</div>
 		</div>
-		<div id="rec432674924" class="r t-rec" data-animationappear="off" data-record-type="131">
+		<div id="rec4326749242" class="r t-rec" data-animationappear="off" data-record-type="131">
 			<!-- T123 -->
 			<div class="t123">
-				<div class="t-container_100 ">
+				<div class="t-container_100 " >
 					<div class="t-width t-width_100 padtb ">
-						<div class="calc-container" style="display: block;">
+						<div class="calc-container"  id="matr1" style="display: block;">
 							<div class="calc-container__row">
 								<div class="calc-container-column calc-container-column_header" style="margin-bottom: 0">
 									<div class="calc-column-title">
@@ -3674,7 +3674,6 @@
 							<!-- Оболонка слайдера -->
 
 						</div>
-						<div class="download-btn calc-hidden"><button type="button" class="calc-download-btn" onclick="Load('matr1')">ЗАВАНТАЖИТИ <span class="pdf">РЕЗУЛЬТАТ</span> PDF</button></div>
 
 
 						<script>
@@ -3837,14 +3836,18 @@
 
 
 							function Load(el){
+								var w = document.getElementById("matr1").offsetWidth;
+								var h = document.getElementById("matr1").offsetHeight;
+								console.log(w,h)
 								html2canvas(document.getElementById("matr1"),{
-									scale: 1,
+									width: w,
+									// scale: 1,
+									windowWidth: 1920,
 									// imageTimeout: 0,
 								}).then(function(canvas) {
 									// var link = document.createElement("a");
-									var w = document.getElementById("matr1").offsetWidth;
-									var h = document.getElementById("matr1").offsetHeight;
-									var doc = new jsPDF('p', 'pt',[w,h]);
+
+									var doc = new jsPDF('l', 'px',[w,h]);
 									doc.addImage(canvas.toDataURL("image/png"), 'PNG', 0, 0,w,h);
 									doc.save('Розрахунок матриці долі від Юлії Мазніченко.pdf');
 								});
@@ -3882,6 +3885,8 @@
 
 
 	</div>
+</div>
+	<div class="download-btn calc-hidden"><button type="button" class="calc-download-btn" onclick="Load('matr1')">ЗАВАНТАЖИТИ <span class="pdf">РЕЗУЛЬТАТ</span> PDF</button></div>
 </div>
 </body>
 

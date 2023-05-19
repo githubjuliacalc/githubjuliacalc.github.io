@@ -122,6 +122,10 @@
 
 .padtb {
     padding: 100px 0px;
+    overflow: hidden;
+}
+#body {
+    overflow: hidden;
 }
 
 @media (max-width: 1346px) {
@@ -391,13 +395,13 @@ input.calc-inp-matriza:focus {
     }
     .calc-container-column_header {
         -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-        flex: 0 1 25%;
+        -ms-flex:1;
+        flex: 1;
         margin-bottom: 0px;
         margin-top: 100px;
         -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1;
+        -ms-flex-order: 0;
+        order: 0;
     }
     .calc-container-column_calc {
         position: relative;
@@ -487,13 +491,13 @@ input.calc-inp-matriza:focus {
     }
     .calc-container-column_header {
         -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-        flex: 0 1 25%;
+        -ms-flex: 1;
+        flex: 1;
         margin-bottom: 0px;
         margin-top: 0px;
         -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1;
+        -ms-flex-order: 0;
+        order: 0;
         margin: 0 auto;
     }
     .calc-container-column_calc {
@@ -533,17 +537,7 @@ input.calc-inp-matriza:focus {
         order: 3;
         margin-top: 30px;
     }
-    .calc-container-column_header {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-        flex: 0 1 25%;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1;
-        margin: 0 auto;
-    }
+
     .calc-container-column_calc {
         position: relative;
         top: 0px;
@@ -594,7 +588,6 @@ input.calc-inp-matriza:focus {
     left: 0;
     right: 0;
     width: 100%;
-    padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -608,6 +601,7 @@ input.calc-inp-matriza:focus {
 }
 
 @media (max-width: 992px) {
+
     .calc-inps-buttons {
         /* min-width: 378px; */
     }
@@ -778,8 +772,8 @@ input.calc-inp-matriza:focus {
 
 @media (max-width: 767px) {
     .calc-download-btn {
-        right: 48%;
-        top: 77px;
+        min-width: 250px;
+        position: static;
     }
 }
 

@@ -140,6 +140,12 @@
         })();
     </script>
 
+	<style media="print">
+		.no-print {
+			display: none;
+		}
+	</style>
+
 </head>
 
 
@@ -147,7 +153,7 @@
 <div id="editor"></div>
 <div class="wrapper" >
     <!--allrecords-->
-    <div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5162013" data-tilda-page-id="26801721" data-tilda-page-alias="calculator" data-tilda-formskey="15519437a016149b2e27cecac5162013"
+    <div id="allrecords" class="no-print t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5162013" data-tilda-page-id="26801721" data-tilda-page-alias="calculator" data-tilda-formskey="15519437a016149b2e27cecac5162013"
         data-tilda-lazy="yes">
 
         <div id="rec432674924" class="r t-rec" data-animationappear="off" data-record-type="131">
@@ -1621,7 +1627,7 @@
 		</div>
 	<!-- RECORD PARTHNER 2 -->
 
-	<div id="allrecords2" class=" t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5162013" data-tilda-page-id="26801721" data-tilda-page-alias="calculator" data-tilda-formskey="15519437a016149b2e27cecac5162013"
+	<div id="allrecords2" class="no-print t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5162013" data-tilda-page-id="26801721" data-tilda-page-alias="calculator" data-tilda-formskey="15519437a016149b2e27cecac5162013"
 		 data-tilda-lazy="yes">
 		<div id="rec4330426742" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="131">
 			<!-- T123 -->
@@ -3849,9 +3855,10 @@
 									// var link = document.createElement("a");
 
 									if (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase())) {
-										var doc = new jsPDF('p', 'px',[1440,1440*h/w]);
-										doc.addImage(canvas.toDataURL("image/png"), 'PNG', 0, 0,1440,1440*h/w);
-										window.open(doc.output('bloburl', { filename: 'Розрахунок матриці долі від Юлії Мазніченко.pdf' }))
+										// var doc = new jsPDF('p', 'px',[1440,1440*h/w]);
+										// doc.addImage(canvas.toDataURL("image/png"), 'PNG', 0, 0,1440,1440*h/w);
+										// window.open(doc.output('bloburl', { filename: 'Розрахунок матриці долі від Юлії Мазніченко.pdf' }))
+										window.print();
 									} else {
 										var doc = new jsPDF('l', 'px',[1440,1440*h/w]);
 										doc.addImage(canvas.toDataURL("image/png"), 'PNG', 0, 0,1440,1440*h/w);
@@ -3893,7 +3900,7 @@
 
 	</div>
 </div>
-	<div class="download-btn calc-hidden"><button type="button" class="calc-download-btn" onclick="Load('matr1')">ЗАВАНТАЖИТИ <span class="pdf">РЕЗУЛЬТАТ</span> PDF</button></div>
+	<div class="download-btn calc-hidden no-print"><button type="button" class="calc-download-btn" onclick="Load('matr1')">ЗАВАНТАЖИТИ <span class="pdf">РЕЗУЛЬТАТ</span> PDF</button></div>
 </div>
 </body>
 
